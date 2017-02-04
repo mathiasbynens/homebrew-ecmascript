@@ -11,7 +11,7 @@ Use `brew install mathiasbynens/ecmascript/<formula>`.
 Alternatively, install via URL:
 
 ```
-brew install https://raw.githubusercontent.com/mathiasbynens/homebrew-ecmascript/master/formula>.rb
+brew install https://raw.githubusercontent.com/mathiasbynens/homebrew-ecmascript/master/<formula>.rb
 ```
 
 You could use `brew tap mathiasbynens/ecmascript` and then `brew install <formula>`, but the latter fails if the formula conflicts with one from [homebrew-core](https://github.com/Homebrew/homebrew-core) or another tap. I wouldn’t recommend this method.
@@ -24,7 +24,7 @@ Second, read the [troubleshooting checklist](https://github.com/Homebrew/brew/bl
 
 ## More documentation
 
-`brew help`, `man brew` or check [the Homebrew documentation](https://github.com/Homebrew/brew/tree/master/docs#readme).
+`brew help`, `man brew`, or check [the Homebrew documentation](https://github.com/Homebrew/brew/tree/master/docs#readme).
 
 ## Author
 

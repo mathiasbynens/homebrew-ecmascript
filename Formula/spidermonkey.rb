@@ -8,6 +8,7 @@ class Spidermonkey < Formula
   def install
     lib.install "libmozglue.dylib", "libnss3.dylib"
     bin.install "js" => "spidermonkey"
+    bin.install_symlink "spidermonkey" => "sm"
   end
 
   test do

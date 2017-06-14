@@ -18,6 +18,9 @@ before_install:
   - rm -rfv "${HOMEBREW_TAP_DIR}"
   - ln -s "${PWD}" "${HOMEBREW_TAP_DIR}"
   - export HOMEBREW_DEVELOPER="1"
+  - ulimit -n 1024
 
 script:
-  - brew test-bot
+  - brew test-bot --no-bottle
+git:
+  depth: 1

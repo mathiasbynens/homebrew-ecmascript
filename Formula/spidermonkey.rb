@@ -1,9 +1,9 @@
 class Spidermonkey < Formula
   desc "Mozilla's JavaScript engine, as used in Firefox"
   homepage "https://developer.mozilla.org/en/SpiderMonkey"
-  url "https://archive.mozilla.org/pub/firefox/tinderbox-builds/mozilla-release-macosx64/1486087028/jsshell-mac.zip"
-  version "1486087028"
-  sha256 "68ade82a1f5840ef575af51cd25bfc09a623049e35cb51bf6f914269701b5d94"
+  url "https://archive.mozilla.org/pub/firefox/releases/58.0b5/jsshell/jsshell-mac.zip"
+  version "58.0b5"
+  sha256 "50582496ad8c683b0e88d3a4be506f6eef3b10f3977ab40891babcaf6f023657"
 
   def install
     lib.install "libmozglue.dylib", "libnss3.dylib"

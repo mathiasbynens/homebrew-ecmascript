@@ -1,8 +1,8 @@
 class Chakra < Formula
   desc "The core part of the JavaScript engine that powers Microsoft Edge"
   homepage "https://github.com/Microsoft/ChakraCore"
-  url "https://aka.ms/chakracore/cc_osx_x64_1_7_2"
-  sha256 "58b5dd346c01b39b6c2c1fffae261900e9ead071af4404f3c6c0747161462ece"
+  url "https://aka.ms/chakracore/cc_osx_x64_1_7_4"
+  sha256 "71473323193c6285f268160e2ec5bf8e14d6b6bc8c4844040b7b408d750b8a2a"
 
   def install
     lib.install "lib/libChakraCore.dylib"

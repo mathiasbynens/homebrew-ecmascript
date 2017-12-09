@@ -1,3 +1,5 @@
+# Note: This project has been superseded by [`jsvu`](https://github.com/GoogleChromeLabs/jsvu).
+
 # homebrew-ecmascript [![Build status](https://travis-ci.org/mathiasbynens/homebrew-ecmascript.svg?branch=master)](https://travis-ci.org/mathiasbynens/homebrew-ecmascript)
 
 This repository hosts Homebrew formulae for ECMAScript engines.
